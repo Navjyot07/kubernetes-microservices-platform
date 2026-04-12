@@ -1,4 +1,4 @@
-# Kubernetes DevOps Platform (Reference Documentation)
+# Kubernetes Microservices Platform (Reference Documentation)
 
 ## Overview
 
@@ -156,7 +156,7 @@ kubectl delete pod <pod>
 ## Folder Structure (Recommended)
 
 ```
-k8s-devops-platform/
+k8s-microservices-platform/
   ├── app/
   ├── k8s/
   ├── docker/
