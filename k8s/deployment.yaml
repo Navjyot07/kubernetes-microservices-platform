@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: fastapi-container
-          image: navjyot07/fastapi-k8s:latest
+          image: navjyot078/fastapi-k8s:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
