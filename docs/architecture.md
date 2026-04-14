@@ -130,6 +130,7 @@ kubectl describe pod <pod>
 kubectl logs <pod>
 kubectl top pods
 kubectl delete pod <pod>
+kubectl create secret docker-registry dockerhub-secret   --docker-username="<username>"   --docker-password="<password>"   --docker-email="<email>"
 ```
 
 ---

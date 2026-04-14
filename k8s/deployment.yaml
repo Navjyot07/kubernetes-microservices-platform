@@ -12,6 +12,9 @@ spec:
       labels:
         app: fastapi
     spec:
+      imagePullSecrets:
+        - name: dockerhub-secret
+
       containers:
         - name: fastapi-container
           image: navjyot078/fastapi-k8s:latest
